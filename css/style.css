@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  color: #333;
+  text-shadow: 1px 1px white;
+}
+
+body {
+  background: url('https://i.ytimg.com/vi/14WWgs-vX50/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  justify-content: top;
+}
+
+#canvas-container {
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#civ-name {
+  font-size: 36px;
+  margin: 25px;
+}
+
+.title {
+  text-align: center;
+  font-size: 64px;
+  text-decoration: bold;
+  margin: 50px;
+}
